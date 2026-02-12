@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+              
+
+            @keyframes firstanimation {
+                from {background-color: red;}
+                to {background-color: yellow;}
+            }
+
+            div{
+                animation-name: firstanimation;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+
+             input{
+             animation-name: firstanimation;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;   
+        }
+
+
+        @keyframes SimpleEffect2
+        {
+            0%{background: red; left:0px; top:0px;}
+        25%{background: yellow; left:200px; top:0px;}
+        50%{background: blue; left:200px; top:200px;}
+        75%{background: green; left:0px; top:200px;}
+        100% {background: red; left:0px; top:0px;}
+    }
+Section
+{
+	animation : SimpleEffect2;
+	animation-duration:80s;
+
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+        </tr>
+
+        <tr>
+            <td><input type="text" name="name" placeholder="Enter your name"></td>
+            <td><input type="email" name="email" placeholder="Enter your email"></td>
+            <td><input type="password" name="password" placeholder="Enter your password"></td>
+           <td><input type="text" name="name" placeholder="Enter your name"></td>
+            <td><input type="email" name="email" placeholder="Enter your email"></td>
+            <td><input type="password" name="password" placeholder="Enter your password"></td>
+        
+        </tr>
+    </table>
+
+    <div style="width: 200px;">
+        <p>Hello this is a div section, and has a paragraph in it, 
+            we are demonstration the use of animation property of CSS3
+        </p>
+    </div>
+
+
+    <section>
+        <h2>Section Heading</h2>
+        <p>This is a section with a background color and some styled text.</p>
+    </section>
+
+
+
+
+</body>
+</html>

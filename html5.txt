@@ -1,0 +1,19 @@
+Geo Loacation
+Offline web
+state management / storage 
+websocket
+canvas and svg
+--------------------------------------
+
+
+Make notes which covers
+
+What
+Why
+Where
+How
+When
+
+
+Make a working demo on the same 
+Prepare some likely asked questions
